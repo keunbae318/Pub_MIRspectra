@@ -1,17 +1,18 @@
-@software{keunbae_kim_2025_17827850,
-  author       = {Keunbae Kim},
-  title        = {keunbae318/Publication\_MIR: Initial Release},
-  month        = dec,
-  year         = 2025,
-  publisher    = {Zenodo},
-  version      = {0.1.0},
-  doi          = {10.5281/zenodo.17827850},
-  url          = {https://doi.org/10.5281/zenodo.17827850},
-  swhid        = {swh:1:dir:a61cc6dfaef98ecdcd8f8126ee161de135354c2d
-                   ;origin=https://doi.org/10.5281/zenodo.17827849;vi
-                   sit=swh:1:snp:195d1a719c1dbebe6088b11a2eddda3e157f
-                   4b80;anchor=swh:1:rel:4d16b911aa652be901fe33d3307b
-                   3a5459077699;path=keunbae318-Publication\_MIR-
-                   cb74864
-                  },
-}
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Kim"
+  given-names: "Keunbae"
+  orcid: "https://orcid.org/0000-0002-5736-4142"
+- family-names: "Bot"
+  given-names: "Hew"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+title: "R script for pls and plsda model:Mid-infrared spectroscopy as a tool to assess oxidative signatures and monitor restoration trajectories in peatlands "
+version: 0.1.0
+doi: 10.5281/zenodo.17827850
+date-released: 2025-12-05
+url: "https://doi.org/10.5281/zenodo.17827850"
+
+
+
+
