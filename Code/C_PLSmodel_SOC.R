@@ -454,7 +454,7 @@ plsFit2
 
 ##Predit the second layer##
 
-dataset_train_mean <- colMeans(dataset_train$spc)
+#dataset_train_mean <- colMeans(dataset_train$spc)
 dataset_test$spc <- sweep(dataset_test$spc, 2, dataset_train_mean, "-")
 
 Second_layer.dat <- dataset_test
@@ -571,5 +571,6 @@ Table=rbind(Table_C,Table_F)
 Table$C_value=10^(log10(Table$lsmean* 0.2672839 +1)/ 0.2672839)
 #write.csv(Table,"R:/Guillermo's Lab/POM/Research/POM/POM Data/Data statical analysis/Sequence_POM/Re_analysis_table/Table.csv")
 Table
+
 
 
